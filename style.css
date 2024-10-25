@@ -1,0 +1,28 @@
+h1 {
+    color: #0e2933;
+    font-family:"Impact", fantasy
+}
+h2 {
+    color: #123b49;
+    font-family:"Century Gothic"
+}
+h3,p {
+    color: black;
+    font-family:"Franklin Gothic"
+}
+ul {
+    color: #68b6cf;
+    font-family:"Franklin Gothic";
+    text-shadow: -1px -1px 0 #365e6b, 1px -1px 0 #365e6b, -1px 1px 0 #365e6b, 1px 1px 0 #365e6b;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.top-row {
+    display:flex;
+    justify-content:space-between;
+  }

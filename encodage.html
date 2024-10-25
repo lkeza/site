@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title> L'encodage expliqué </title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<center><h1> <u> Enquête sur le codage de différents caractères </u></h1></center>
+<h2> a) ABCD...Z puis abcd...z </h2>
+<p><strong> ASCII </strong> : Les lettres majuscules (A-Z) sont codées de 65 à 90 en ASCII, tandis que les lettres minuscules (a-z) sont codées de 97 à 122.</p>
+<p><strong> UTF-8 </strong> : En UTF-8, les lettres majuscules et minuscules conservent le même codage qu'en ASCII, puisqu'UTF-8 est rétrocompatible avec l'ASCII pour les caractères standards</p>
+<br>
+<h2> b) Autres caractères comme &"’(-_@]… </h2>
+<p> <strong> En ASCII </strong> : Des symboles comme &, ", ', (, -, _, @ et ] ont leurs propres codes ASCII, par exemple : <br>
+    & : 38 <br>
+    " : 34 <br>
+    ' : 39 <br>
+    ( : 40 <br>
+    _ : 95 <br>
+    @ : 64 <br>
+    ] : 93 <br>
+    <strong> En UTF-8 </strong>, ces caractères conservent également les mêmes codes qu’en ASCII.</p> <br>
+<h2>c) Que dire des caractères : éèçà…</h2>
+<p><strong>En ASCII</strong> ces caractères n'existent pas</p>
+<p>En <strong>ISO 8859-1 (Latin-1)</strong>, un codage courant pour les langues européennes, ces caractères sont ajoutés et sont codés de 128 à 255. <br>
+Par exemple : <br>
+é : 233 <br>
+è : 232 <br>
+ç : 231 <br>
+à : 224</p> <br>
+<h2>d)  Et si on utilise le menu Encodage de Notepad++ ?</h2>
+<p>Notepad++ permet de choisir différents encodages via le menu « Encodage »</p>
+<p>En choisissant <strong>ASCII</strong>, les caractères non accentués seront affichés correctement, mais les caractères accentués ou spéciaux risquent de ne pas apparaître.</p>
+<p>En sélectionnant <strong>UTF-8</strong>, tous les caractères, y compris les caractères spéciaux, accentués et symboles internationaux, seront correctement encodés et affichés.</p>
+<p> <strong> 8859-1 (Latin-1)</strong> permet de coder les caractères courants européens, mais n’est pas compatible avec les caractères universels comme UTF-8.</p>
+<div class="top-row">
+    <button><a href="index.html">Moi</a></button>
+    <p> </p>
+    <button><a href="remerciement.html">A propos...</a></button>
+  </div>
+</body>
